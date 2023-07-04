@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviewKotaTujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kota Tujuan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkboxMalang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malang" />
+
+    <CheckBox
+        android:id="@+id/checkboxSurabaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surabaya" />
+
+    <CheckBox
+        android:id="@+id/checkboxSemarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semarang" />
+
+    <CheckBox
+        android:id="@+id/checkboxJakarta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta" />
+
+    <TextView
+        android:id="@+id/textviewHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Tiket"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textviewHargaTiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih salah satu kota tujuan"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textviewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
